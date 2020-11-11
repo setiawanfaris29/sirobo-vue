@@ -48,8 +48,8 @@
       </template>
 
       <template #modal-footer="ok">
-        <b-button size="md" class="float-left" variant="success" @click="ok()">Ya</b-button>
-        <b-button size="md"  variant="danger" @click="show=false">Tidak</b-button>
+        <b-button size="lg" class=" btn mr-auto"  variant="success" @click="ok()">Ya</b-button>
+        <b-button size="lg" class="btn ml-auto" variant="danger" @click="show=false">Tidak</b-button>
       </template>
     </b-modal>
   </div>
